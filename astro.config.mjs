@@ -1,8 +1,8 @@
 import { defineConfig } from 'astro/config'
 
 export default defineConfig({
-  site: 'https://username.github.io', // Will be updated with actual username
-  base: '/website', // Matches repo name, critical for GitHub Pages
+  site: 'https://ungalsoththu.github.io',
+  base: '/', // Root URL - special repo name ungalsoththu.github.io serves at root
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'ta'],
